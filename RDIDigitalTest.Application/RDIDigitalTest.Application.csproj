@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RDIDigitalTest.Domain.Core\RDIDigitalTest.Domain.Core.csproj" />
+    <ProjectReference Include="..\RDIDigitalTest.Domain.Services\RDIDigitalTest.Domain.Services.csproj" />
+    <ProjectReference Include="..\RDIDigitalTest.Domain\RDIDigitalTest.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
