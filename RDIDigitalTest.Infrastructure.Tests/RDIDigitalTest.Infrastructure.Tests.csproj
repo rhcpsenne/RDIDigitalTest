@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RDIDigitalTest.Domain.Core\RDIDigitalTest.Domain.Core.csproj" />
+    <ProjectReference Include="..\RDIDigitalTest.Infrastructure\RDIDigitalTest.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

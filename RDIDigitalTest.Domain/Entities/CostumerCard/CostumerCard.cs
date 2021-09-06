@@ -12,6 +12,15 @@ namespace RDIDigitalTest.Domain.Entities.CostumerCard
     [Table("CostumerCard")]
     public class CostumerCard : Base
     {
+        public CostumerCard(int id, int costumerId, long cardNumber, int cVV, DateTime registrationDate)
+        {
+            Id = id;
+            CostumerId = costumerId;
+            CardNumber = cardNumber;
+            CVV = cVV;
+            RegistrationDate = registrationDate;
+        }
+
         public CostumerCard(int costumerId, long cardNumber, int cVV, DateTime registrationDate)
         {
             CostumerId = costumerId;
